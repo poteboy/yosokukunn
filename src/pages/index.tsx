@@ -8,10 +8,10 @@ import Link from 'next/link';
 export default function Home() {
     return (
         <React.Fragment>
-            <Link passHref {...path.home}>
-                <a>To TOP</a>
-            </Link>
             <Header />
+            <Link passHref {...path.exercise}>
+                <a>exercise</a>
+            </Link>
             <Footer />
         </React.Fragment>
     )

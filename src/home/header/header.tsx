@@ -1,12 +1,14 @@
 import { useRouter } from 'next/router'
 import React, { FC, useState } from 'react'
 import Link from 'next/link'
+import { path } from '../../config/path';
 
 
 export const Header: FC = () => {
     return (
-        <header>
-        </header>   
+    <Link passHref {...path.home}>
+        <a>To TOP</a>
+    </Link> 
     )
 }
 
