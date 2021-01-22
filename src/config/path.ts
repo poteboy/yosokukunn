@@ -1,3 +1,5 @@
+import { ExerciseNames } from '../model/exercise';
+
 export const path = {
     home: {
         href: '/',
